@@ -6,9 +6,7 @@ React library to display flowise chatbot on your website
 
 ![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
 
-## How to Use
-
-In your project, install:
+## Install
 
 ```bash
 npm install flowise-embed flowise-embed-react
@@ -20,7 +18,9 @@ or
 yarn add flowise-embed flowise-embed-react
 ```
 
-Then use it:
+## Import
+
+Full Page Chat
 
 ```tsx
 import { FullPageChat } from "flowise-embed-react";
@@ -30,8 +30,19 @@ const App = () => {
     <FullPageChat
       chatflowid="your-chatflow-id"
       apiHost="http://localhost:3000"
-      style={{ width: "100%", height: "600px" }}
     />
+  );
+};
+```
+
+Popup Chat
+
+```tsx
+import { BubbleChat } from "flowise-embed-react";
+
+const App = () => {
+  return (
+    <BubbleChat chatflowid="your-chatflow-id" apiHost="http://localhost:3000" />
   );
 };
 ```

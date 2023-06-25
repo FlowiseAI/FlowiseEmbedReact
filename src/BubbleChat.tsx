@@ -6,7 +6,7 @@ type Props = BubbleProps
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      'flowise-bubble': React.DetailedHTMLProps<
+      'flowise-chatbot': React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLElement>,
         HTMLElement
       >
@@ -32,7 +32,7 @@ export const BubbleChat = (props: Props) => {
 
   const attachBubbleToDom = useCallback((props: Props) => {
     const bubbleElement = document.createElement(
-      'flowise-bubble'
+      'flowise-chatbot'
     ) as BubbleElement
     ref.current = bubbleElement
     injectPropsToElement(ref.current, props)
