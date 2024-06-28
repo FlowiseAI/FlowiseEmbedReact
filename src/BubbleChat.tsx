@@ -22,7 +22,7 @@ export const BubbleChat = (props: Props) => {
 
   useEffect(() => {
     ;(async () => {
-      await import('flowise-embed/dist/web')
+      await import('flowise-embed/dist/web.js')
       setIsInitialized(true)
     })()
     return () => {
