@@ -1,6 +1,6 @@
 {
   "name": "flowise-embed-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React library to display flowise chatbot on your website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,7 +25,7 @@
     "@types/node": "18.15.11",
     "@types/react": "18.0.32",
     "eslint": "8.37.0",
-    "flowise-embed": "*",
+    "flowise-embed": "latest",
     "react": "18.2.0",
     "rollup": "3.20.2",
     "rollup-plugin-typescript-paths": "1.4.0",
