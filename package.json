@@ -16,7 +16,7 @@
     "@ladle/react": "2.5.1"
   },
   "devDependencies": {
-    "@babel/preset-react": "7.18.6",
+    "@babel/preset-react": "7.26.3",
     "@babel/preset-typescript": "7.21.4",
     "@rollup/plugin-babel": "6.0.3",
     "@rollup/plugin-node-resolve": "15.0.1",
@@ -26,7 +26,7 @@
     "@types/react": "18.0.32",
     "eslint": "8.37.0",
     "flowise-embed": "latest",
-    "react": "18.2.0",
+    "react": "19.0.0",
     "rollup": "3.20.2",
     "rollup-plugin-typescript-paths": "1.4.0",
     "tslib": "2.5.0",
