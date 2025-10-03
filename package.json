@@ -1,6 +1,6 @@
 {
   "name": "flowise-embed-react",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "React library to display flowise chatbot on your website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
