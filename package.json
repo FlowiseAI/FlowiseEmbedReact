@@ -27,7 +27,7 @@
     "eslint": "8.37.0",
     "flowise-embed": "latest",
     "react": "19.0.0",
-    "rollup": "3.20.2",
+    "rollup": "3.29.5",
     "rollup-plugin-typescript-paths": "1.4.0",
     "tslib": "2.5.0",
     "tsx": "3.12.6",
