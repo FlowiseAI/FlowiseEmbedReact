@@ -2648,9 +2648,9 @@ flatted@^3.2.7:
   integrity sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==
 
 flowise-embed@latest:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/flowise-embed/-/flowise-embed-3.1.0.tgz#c3ea74532db92a682a0a13312ce5043d2e1a01d7"
-  integrity sha512-znZuKTlnEp+YSXzDvCc1x8Z3F4+oKicoLCWokDn3+7DLMSRxXYqfVhr3yVZFfPE8M1akt6szzx57i71Iqksrlg==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/flowise-embed/-/flowise-embed-3.1.1.tgz#115dc96978bf040fad0227de864c4716115e45c9"
+  integrity sha512-zG8tHlpl0hJIjxo0AHTqUFbODnzX3pwpm+oiYpP9JO/cn1uJ26xJkeTleKCqgnU0k+xRcm+AJpZqleXaUzMSyw==
   dependencies:
     "@babel/core" "^7.22.1"
     "@microsoft/fetch-event-source" "^2.0.1"

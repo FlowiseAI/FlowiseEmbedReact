@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
-import type { BotProps } from 'flowise-embed'
+import type { FullProps } from 'flowise-embed'
 
-type Props = BotProps & {
+type Props = FullProps & {
   style?: React.CSSProperties
   className?: string
 }

@@ -65,7 +65,6 @@ function App() {
             chatflowid={chatflowId}
             apiHost={apiHost}
             style={{ height: '600px', width: '100%' }}
-            // @ts-ignore
             theme={{
               chatWindow: {
                 welcomeMessage: 'Hello! How can I help you?',
