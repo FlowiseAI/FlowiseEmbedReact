@@ -1568,6 +1568,13 @@
   dependencies:
     tslib "^2.3.0"
 
+"@types/dompurify@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-3.2.0.tgz#56610bf3e4250df57744d61fbd95422e07dfb840"
+  integrity sha512-Fgg31wv9QbLDA0SpTOXO3MaxySc4DKGLi8sna4/Utjo4r3ZRPdCt4UQee8BWr+Q5z21yifghREPJGYaEOEIACg==
+  dependencies:
+    dompurify "*"
+
 "@types/estree@^1.0.0":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.2.tgz#ff02bc3dc8317cd668dfec247b750ba1f1d62453"
@@ -1601,6 +1608,11 @@
   version "0.16.3"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.3.tgz#cef09e3ec9af1d63d2a6cc5b383a737e24e6dcf5"
   integrity sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==
+
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
 
 "@vitejs/plugin-react@^3.0.0":
   version "3.1.0"
@@ -2204,6 +2216,13 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+dompurify@*, dompurify@^3.3.2:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.3.3.tgz#680cae8af3e61320ddf3666a3bc843f7b291b2b6"
+  integrity sha512-Oj6pzI2+RqBfFG+qOaOLbFXLQ90ARpcGG6UePL82bJLtdsa6CYJD7nmiU8MW9nQNOtCHV3lZ/Bzq1X0QYbBZCA==
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
+
 dotenv@^16.4.5:
   version "16.4.7"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.7.tgz#0e20c5b82950140aa99be360a8a5f52335f53c26"
@@ -2629,17 +2648,19 @@ flatted@^3.2.7:
   integrity sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==
 
 flowise-embed@latest:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/flowise-embed/-/flowise-embed-3.0.5.tgz#841a0967daf796c5de00df4d81bf42fd871f3097"
-  integrity sha512-CCZRpZdTeSW2Oagj7LxxK7YZKEbqjylUs2ayCuhB2hNoufkOpEJlyvqdDKcy6FDc+DwKg5aSjSFyTH2AFVh1pQ==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/flowise-embed/-/flowise-embed-3.1.0.tgz#c3ea74532db92a682a0a13312ce5043d2e1a01d7"
+  integrity sha512-znZuKTlnEp+YSXzDvCc1x8Z3F4+oKicoLCWokDn3+7DLMSRxXYqfVhr3yVZFfPE8M1akt6szzx57i71Iqksrlg==
   dependencies:
     "@babel/core" "^7.22.1"
     "@microsoft/fetch-event-source" "^2.0.1"
     "@ts-stack/markdown" "^1.4.0"
+    "@types/dompurify" "^3.2.0"
     axios "^1.7.7"
     cors "^2.8.5"
     cross-env "^7.0.3"
     device-detector-js "^3.0.3"
+    dompurify "^3.3.2"
     dotenv "^16.4.5"
     express "^4.21.1"
     form-data "^4.0.1"
