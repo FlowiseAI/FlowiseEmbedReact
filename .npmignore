@@ -5,3 +5,4 @@ example
 .eslintrc.cjs
 rollup.config.js
 tsconfig.json
+.claude
